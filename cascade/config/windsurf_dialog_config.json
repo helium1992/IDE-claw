@@ -1,0 +1,115 @@
+{
+  "windsurf_input_box": {
+    "x": 812,
+    "y": 950
+  },
+  "reply_text": "继续，将回复推送给我",
+  "switch_wait_ms": 20000,
+  "button_roi": {
+    "width": 30,
+    "height": 30
+  },
+  "button_match_search_padding": 12,
+  "button_similarity_min": 0.82,
+  "button_similarity_margin": 0.05,
+  "button_stable_samples": 3,
+  "button_poll_ms": 300,
+  "post_send_verify_ms": 1500,
+  "auto_detection_service_enabled": true,
+  "auto_detection_idle_poll_ms": 1500,
+  "auto_detection_post_run_cooldown_ms": 1000,
+  "auto_detection_focus_before_check": false,
+  "auto_detection_window_gate_enabled": false,
+  "auto_detection_require_foreground_window": false,
+  "auto_detection_cycle_poll_ms": 2000,
+  "auto_detection_confirm_rounds": 5,
+  "auto_detection_confirm_required_hits": 4,
+  "auto_detection_action_cooldown_ms": 20000,
+  "auto_detection_verify_retry_count": 1,
+  "auto_detection_verify_retry_ms": 1500,
+  "auto_detection_require_progress_reset_after_action": true,
+  "auto_detection_user_interrupt_quiet_ms": 3000,
+  "auto_detection_mouse_interrupt_px": 6,
+  "auto_detection_target_holdoff_ms": 20000,
+  "auto_detection_window_gate_min_passes": 2,
+  "auto_detection_anchor_similarity_min": 0.78,
+  "windsurf_image_grayscale": true,
+  "focus_window_before_inject": false,
+  "focus_delay_ms": 150,
+  "paste_delay_ms": 120,
+  "send_delay_ms": 80,
+  "window_title_keywords": [
+    "windsurf"
+  ],
+  "window_title_excludes": [
+    "settings",
+    "microsoft edge"
+  ],
+  "paste_shortcut": [
+    "ctrl",
+    "v"
+  ],
+  "send_shortcut": [
+    "enter"
+  ],
+  "windsurf_send_button_reference_image": "e:/PC_linker/data/received_files/1775280529_7f420a1e-20df-4525-a063-16d505f97ecd_clean.png",
+  "windsurf_target_button_reference_image": "e:/PC_linker/data/received_files/1775278313_1b86d0ef-8255-48d3-9e8b-5ea782212ca7_clean.png",
+  "windsurf_run_button_reference_image": "F:/vitual_experiment/ide-claw/cascade/assets/windsurf/fresh_run_button_ref.png",
+  "windsurf_account_server_url": "https://your-server.example.com",
+  "windsurf_account_server_token": "your-session-id:your-jwt-secret",
+  "windsurf_account_machine_id": "",
+  "windsurf_account_cooldown_minutes": 20,
+  "windsurf_account_credit_threshold": 1,
+  "windsurf_run_button_enabled": true,
+  "windsurf_run_button_cooldown_ms": 4000,
+  "windsurf_run_button_post_click_delay_ms": 800,
+  "windsurf_run_button_search_lane_width": 960,
+  "windsurf_run_button_search_lane_padding": 60,
+  "windsurf_run_button_search_right_margin": 45,
+  "windsurf_run_button_search_top_offset": 820,
+  "windsurf_run_button_search_bottom_margin": 70,
+  "button_targets": [
+    {
+      "name": "left",
+      "send_button": {
+        "x": 935,
+        "y": 985
+      },
+      "input_box": {
+        "x": 812,
+        "y": 950
+      },
+      "switch_button": {
+        "x": 597,
+        "y": 1023
+      },
+      "run_button_search_region": {
+        "left": 610,
+        "top": 50,
+        "right": 950,
+        "bottom": 950
+      }
+    },
+    {
+      "name": "right",
+      "send_button": {
+        "x": 1895,
+        "y": 985
+      },
+      "input_box": {
+        "x": 1772,
+        "y": 950
+      },
+      "switch_button": {
+        "x": 1557,
+        "y": 1023
+      },
+      "run_button_search_region": {
+        "left": 1550,
+        "top": 50,
+        "right": 1920,
+        "bottom": 950
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+[Service]
+Environment=TURN_ENABLED=true
+Environment=TURN_URLS=turn:your-server.example.com:3478?transport=udp,turn:your-server.example.com:3478?transport=tcp,turns:your-server.example.com:5349?transport=tcp
+Environment=TURN_SHARED_SECRET=__TURN_SHARED_SECRET__
+Environment=TURN_TTL_SECONDS=3600
+Environment=TURN_REALM=your-server.example.com

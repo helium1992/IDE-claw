@@ -1,0 +1,22 @@
+{
+  "name": "ideclaw-session",
+  "displayName": "IDE Claw Session Manager",
+  "description": "Manages editor session switching via trigger file",
+  "version": "1.0.0",
+  "publisher": "ide-claw",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ideclaw.refreshSession",
+        "title": "IDE Claw: Refresh Session"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "server_url": "https://your-domain.com",
+    "session_id": "my-project-001",
+    "auth_token": "my-project-001:your-jwt-secret"
+}

@@ -1,0 +1,11 @@
+{
+    "server_url": "https://your-domain.com",
+    "session_id": "YOUR-SESSION-ID",
+    "auth_token": "YOUR-SESSION-ID:your-jwt-secret",
+    "session_meta": {
+        "project_name": "项目名称",
+        "display_name": "显示名称",
+        "ide_type": "kiro",
+        "description": "项目描述"
+    }
+}

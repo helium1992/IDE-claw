@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+mcp-server/node_modules/
+
+# Build outputs
+desktop-build/
+app/build/
+app/.dart_tool/
+app/.idea/
+app/windows/flutter/ephemeral/
+app/.flutter-plugins-dependencies
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+windsurf_runtime/
+
+# Go
+server/push-server
+server/push-server-linux
+server/data/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Runtime data
+data/
+
+# Logs
+*.log
